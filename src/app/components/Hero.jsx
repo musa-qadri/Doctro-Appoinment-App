@@ -21,8 +21,8 @@ export default function Hero() {
                             chambray.
                         </p>
                         <div className=" flex gap-6 justify-center">
-                          <Button>button</Button>
-                          <Button>button</Button>
+                          <Button variant='outline' >Find Doctoer you Need</Button>
+                          <Button>Apply As Doctor</Button>
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 flex justify-end" >

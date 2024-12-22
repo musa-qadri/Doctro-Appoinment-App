@@ -36,7 +36,7 @@ export const doctors=
 [
   {
     "name": "Dr. Sarah Johnson",
-    "appointmentTime": "2024-12-18T10:00:00",
+    "appointmentTime": "2024-12-18",
     "fees": 500,
     "categories": "Cardiology",
     "hospital": "City Heart Hospital",
@@ -44,7 +44,7 @@ export const doctors=
   },
   {
     "name": "Dr. Ahmed Khan",
-    "appointmentTime": "2024-12-18T12:30:00",
+    "appointmentTime": "2024-12-18",
     "fees": 700,
     "categories": "Orthopedics",
     "hospital": "Prime Care Hospital",
@@ -52,7 +52,7 @@ export const doctors=
   },
   {
     "name": "Dr. Emily Davis",
-    "appointmentTime": "2024-12-18T15:00:00",
+    "appointmentTime": "2024-12-18",
     "fees": 450,
     "categories": "Pediatrics",
     "hospital": "Green Valley Clinic",
@@ -60,7 +60,7 @@ export const doctors=
   },
   {
     "name": "Dr. Ravi Patel",
-    "appointmentTime": "2024-12-18T09:00:00",
+    "appointmentTime": "2024-12-18",
     "fees": 600,
     "categories": "Dermatology",
     "hospital": "Sunshine Hospital",
@@ -68,7 +68,7 @@ export const doctors=
   },
   {
     "name": "Dr. Ayesha Malik",
-    "appointmentTime": "2024-12-18T11:00:00",
+    "appointmentTime": "2024-12-18",
     "fees": 550,
     "categories": "Gynecology",
     "hospital": "Women’s Wellness Center",
@@ -76,7 +76,7 @@ export const doctors=
   },
   {
     "name": "Dr. Emily Davis",
-    "appointmentTime": "2024-12-18T15:00:00",
+    "appointmentTime": "2024-12-18",
     "fees": 450,
     "categories": "Pediatrics",
     "hospital": "Green Valley Clinic",
@@ -84,7 +84,7 @@ export const doctors=
   },
   {
     "name": "Dr. Ahmed Khan",
-    "appointmentTime": "2024-12-18T12:30:00",
+    "appointmentTime": "2024-12-18",
     "fees": 700,
     "categories": "Orthopedics",
     "hospital": "Prime Care Hospital",
@@ -92,14 +92,106 @@ export const doctors=
   },
   {
     "name": "Dr. Ayesha Malik",
-    "appointmentTime": "2024-12-18T11:00:00",
+    "appointmentTime": "2024-12-18",
     "fees": 550,
     "categories": "Gynecology",
     "hospital": "Women’s Wellness Center",
     "gender": "Female"
   }, {
     "name": "Dr. Saira shakeel",
-    "appointmentTime": "2024-12-18T10:00:00",
+    "appointmentTime": "2024-12-18",
+    "fees": 500,
+    "categories": "Cardiology",
+    "hospital": "City Heart Hospital",
+    "gender": "Female"
+  }, {
+    "name": "Dr. Ravi Patel",
+    "appointmentTime": "2024-12-18",
+    "fees": 600,
+    "categories": "Dermatology",
+    "hospital": "Sunshine Hospital",
+    "gender": "Male"
+  },
+  {
+    "name": "Dr. Ayesha Malik",
+    "appointmentTime": "2024-12-18",
+    "fees": 550,
+    "categories": "Gynecology",
+    "hospital": "Women’s Wellness Center",
+    "gender": "Female"
+  },
+  {
+    "name": "Dr. Emily Davis",
+    "appointmentTime": "2024-12-18",
+    "fees": 450,
+    "categories": "Pediatrics",
+    "hospital": "Green Valley Clinic",
+    "gender": "Female"
+  },
+  {
+    "name": "Dr. Ahmed Khan",
+    "appointmentTime": "2024-12-18",
+    "fees": 700,
+    "categories": "Orthopedics",
+    "hospital": "Prime Care Hospital",
+    "gender": "Male"
+  },
+  {
+    "name": "Dr. Ayesha Malik",
+    "appointmentTime": "2024-12-18",
+    "fees": 550,
+    "categories": "Gynecology",
+    "hospital": "Women’s Wellness Center",
+    "gender": "Female"
+  }, {
+    "name": "Dr. Saira shakeel",
+    "appointmentTime": "2024-12-18",
+    "fees": 500,
+    "categories": "Cardiology",
+    "hospital": "City Heart Hospital",
+    "gender": "Female"
+  }, {
+    "name": "Dr. Ravi Patel",
+    "appointmentTime": "2024-12-18",
+    "fees": 600,
+    "categories": "Dermatology",
+    "hospital": "Sunshine Hospital",
+    "gender": "Male"
+  },
+  {
+    "name": "Dr. Ayesha Malik",
+    "appointmentTime": "2024-12-18",
+    "fees": 550,
+    "categories": "Gynecology",
+    "hospital": "Women’s Wellness Center",
+    "gender": "Female"
+  },
+  {
+    "name": "Dr. Emily Davis",
+    "appointmentTime": "2024-12-18",
+    "fees": 450,
+    "categories": "Pediatrics",
+    "hospital": "Green Valley Clinic",
+    "gender": "Female"
+  },
+  {
+    "name": "Dr. Ahmed Khan",
+    "appointmentTime": "2024-12-18",
+    "fees": 700,
+    "categories": "Orthopedics",
+    "hospital": "Prime Care Hospital",
+    "gender": "Male"
+  },
+  {
+    "name": "Dr. Ayesha Malik",
+    "appointmentTime": "2024-12-18",
+    "fees": 550,
+    "categories": "Gynecology",
+    "hospital": "Women’s Wellness Center",
+    "gender": "Female"
+  }, {
+    "name": "Dr. Saira shakeel",
+    "appointmentTime": "2024-12-18",
     "fees": 500,
     "categories": "Cardiology",
     "hospital": "City Heart Hospital",

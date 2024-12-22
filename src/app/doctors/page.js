@@ -7,7 +7,7 @@ export default function Doctors() {
   return (
     <div>
         <Header/>
-        <Hero/>
+        
         <Doctorsection/>
       
     </div>
