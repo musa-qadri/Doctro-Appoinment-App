@@ -6,8 +6,6 @@ import Doctorsection from '../components/Doctorsection'
 export default function Doctors() {
   return (
     <div>
-        <Header/>
-        
         <Doctorsection/>
       
     </div>

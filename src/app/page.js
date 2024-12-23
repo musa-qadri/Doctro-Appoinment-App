@@ -7,7 +7,6 @@ import Doctorsection from "./components/Doctorsection";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <Header />
       <Hero />
       <Doctorsection home={true} />
     </div>

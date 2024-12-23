@@ -26,7 +26,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 export default function Doctorsection({home})
  {
          
-   const filter=home?doctors.slice(0,7):doctors
+   const filter=home?doctors.slice(0,6):doctors
 
     return (
 
@@ -59,8 +59,8 @@ export default function Doctorsection({home})
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-9 ">
                 {filter.map((doctor) => (
-                    <Card key={doctor.name} className='bg-slate-300'>
-                        <CardHeader className='flex flex-row bg-slate-400'>
+                    <Card key={doctor.name} className='bg-slate-200'>
+                        <CardHeader className='flex flex-row bg-slate-300'>
 
                             <Avatar className='self-center h-10 w-10' >
                                      <AvatarImage src="https://github.com/shadcn.png" />
@@ -72,8 +72,9 @@ export default function Doctorsection({home})
                           </div>
                         </CardHeader>
                       
-                        <CardContent>
-                                <div className="flex justify-between py-1">
+                     { !home && (  
+                      <CardContent>
+                                <div className="flex justify-between py-1 ">
                                     <h1 className="font-bold">Hospital</h1>
                                     <h1>{doctor.hospital}</h1>
                                 </div>
@@ -87,13 +88,14 @@ export default function Doctorsection({home})
                                 </div>
                          </CardContent>
 
-                         <CardFooter>
+                        )}
+                         <CardFooter className='my-2'>
                             
-                            
+                            <Link href={`/doctors/${doctor.id}`}>
                             <Button>
                                 Book Appoinment
-                                
                             </Button>
+                            </Link>
                          </CardFooter>
                             
                     </Card>
