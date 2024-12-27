@@ -9,6 +9,7 @@ import {
     MenubarTrigger,
 } from "@/components/ui/menubar"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import Link from 'next/link'
 
 
 
@@ -31,14 +32,13 @@ export default function Header() {
 
                         </MenubarTrigger>
                         <MenubarContent>
-                            <MenubarItem>
-                                New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-                            </MenubarItem>
-                            <MenubarItem>New Window</MenubarItem>
+                            <Link href={'/appoinment'}><MenubarItem>Profile</MenubarItem></Link>
+                            
                             <MenubarSeparator />
-                            <MenubarItem>Share</MenubarItem>
+                            <Link href={'/profile'}><MenubarItem>See Details</MenubarItem></Link>
+                            
                             <MenubarSeparator />
-                            <MenubarItem>Print</MenubarItem>
+                            <MenubarItem>Logout </MenubarItem>
                         </MenubarContent>
                     </MenubarMenu>
                 </Menubar>

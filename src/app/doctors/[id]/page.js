@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { doctors } from "@/lib/data";
 import Image from "next/image";
 
@@ -12,10 +13,10 @@ export default function DoctorsDetails({ params }) {
         <div className="min-h-screen">
 
             <section className="text-gray-600 body-font overflow-hidden">
-                <div className="container px-5 py-24 mx-auto">
+                <div className="container  py-5 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
 
-                     <div className="lg:w-1/2 relative w-full lg:h-auto h-64 object-cover object-center rounded">
+                     <div className="lg:w-1/2 relative w-full lg:h-auto h-56 object-cover object-center rounded">
                         <Image
                         
                         fill={true}
@@ -184,7 +185,12 @@ export default function DoctorsDetails({ params }) {
                                     <h1 className="font-bold">Appoinment Time</h1>
                                     <h1>{doctorInfo.appointmentTime}</h1>
                                 </div>
+                                <div className="flex justify-between py-1">
+                                    <h1 className="font-bold">Fees</h1>
+                                    <h1>${ doctorInfo.fees}</h1>
+                                </div>
                             </div>
+                        <Button className='my-4 w-full'>Book your Appoinment</Button>
                         </div>
                           
                     </div>

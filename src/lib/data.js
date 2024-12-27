@@ -231,3 +231,9 @@ export const doctors = [
     gender: "Male",
   },
 ];
+export const currentUser = {
+  name : 'bilal',
+  role : 'doctor',
+  email : 'bilal@gmail.com'
+
+}
