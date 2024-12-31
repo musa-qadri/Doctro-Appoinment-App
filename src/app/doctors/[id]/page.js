@@ -1,3 +1,4 @@
+import { Datepicker } from "@/app/components/Datepicker";
 import { Button } from "@/components/ui/button";
 import { doctors } from "@/lib/data";
 import Image from "next/image";
@@ -190,6 +191,7 @@ export default function DoctorsDetails({ params }) {
                                     <h1>${ doctorInfo.fees}</h1>
                                 </div>
                             </div>
+                            <Datepicker/>
                         <Button className='my-4 w-full'>Book your Appoinment</Button>
                         </div>
                           

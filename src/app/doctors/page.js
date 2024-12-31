@@ -7,7 +7,6 @@ export default function Doctors() {
   return (
     <div>
         <Doctorsection/>
-      
     </div>
   )
 }

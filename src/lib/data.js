@@ -236,4 +236,138 @@ export const currentUser = {
   role : 'doctor',
   email : 'bilal@gmail.com'
 
-}
+};
+
+export const appointments = [
+  {
+    user: {
+      name: "John Doe",
+      email: "johndoe@example.com",
+    },
+    appointmentTime: "10:00 AM",
+    status: "Confirmed",
+    appointmentDate: "2024-12-22",
+    doctor: {
+      name: "Dr. Sarah Johnson",
+      hospital: "City Heart Hospital",
+    },
+  },
+  {
+    user: {
+      name: "Jane Smith",
+      email: "janesmith@example.com",
+    },
+    appointmentTime: "12:00 PM",
+    status: "Pending",
+    appointmentDate: "2024-12-23",
+    doctor: {
+      name: "Dr. Ahmed Khan",
+      hospital: "Prime Care Hospital",
+    },
+  },
+  {
+    user: {
+      name: "David Brown",
+      email: "davidbrown@example.com",
+    },
+    appointmentTime: "02:30 PM",
+    status: "Cancelled",
+    appointmentDate: "2024-12-24",
+    doctor: {
+      name: "Dr. Emily Davis",
+      hospital: "Green Valley Clinic",
+    },
+  },
+  {
+    user: {
+      name: "Sophia Lee",
+      email: "sophialee@example.com",
+    },
+    appointmentTime: "09:00 AM",
+    status: "Confirmed",
+    appointmentDate: "2024-12-25",
+    doctor: {
+      name: "Dr. Ravi Patel",
+      hospital: "Sunshine Hospital",
+    },
+  },
+  {
+    user: {
+      name: "Michael Johnson",
+      email: "michaeljohnson@example.com",
+    },
+    appointmentTime: "03:00 PM",
+    status: "Pending",
+    appointmentDate: "2024-12-26",
+    doctor: {
+      name: "Dr. Ayesha Malik",
+      hospital: "Women’s Wellness Center",
+    },
+  },
+  {
+    user: {
+      name: "Emma Wilson",
+      email: "emmawilson@example.com",
+    },
+    appointmentTime: "11:00 AM",
+    status: "Confirmed",
+    appointmentDate: "2024-12-27",
+    doctor: {
+      name: "Dr. Saira Shakeel",
+      hospital: "City Heart Hospital",
+    },
+  },
+  {
+    user: {
+      name: "Liam Taylor",
+      email: "liamtaylor@example.com",
+    },
+    appointmentTime: "01:00 PM",
+    status: "Cancelled",
+    appointmentDate: "2024-12-28",
+    doctor: {
+      name: "Dr. Michael Brown",
+      hospital: "Neuro Care Hospital",
+    },
+  },
+  {
+    user: {
+      name: "Olivia Davis",
+      email: "oliviadavis@example.com",
+    },
+    appointmentTime: "04:00 PM",
+    status: "Pending",
+    appointmentDate: "2024-12-29",
+    doctor: {
+      name: "Dr. Sarah Johnson",
+      hospital: "City Heart Hospital",
+    },
+  },
+  {
+    user: {
+      name: "Noah Martinez",
+      email: "noahmartinez@example.com",
+    },
+    appointmentTime: "05:30 PM",
+    status: "Confirmed",
+    appointmentDate: "2024-12-30",
+    doctor: {
+      name: "Dr. Emily Davis",
+      hospital: "Green Valley Clinic",
+    },
+  },
+  {
+    user: {
+      name: "Ava Moore",
+      email: "avamoore@example.com",
+    },
+    appointmentTime: "08:00 AM",
+    status: "Confirmed",
+    appointmentDate: "2024-12-31",
+    doctor: {
+      name: "Dr. Ahmed Khan",
+      hospital: "Prime Care Hospital",
+    },
+  },
+];
+
