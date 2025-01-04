@@ -1,7 +1,6 @@
 'use client'
 
 import {
-    
     Select,
     SelectContent,
     SelectItem,
@@ -26,7 +25,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 export default function Doctorsection({home})
  {
-         
    const filter=home?doctors.slice(0,6):doctors
 
     return (
