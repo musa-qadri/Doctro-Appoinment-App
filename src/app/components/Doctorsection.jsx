@@ -45,8 +45,7 @@ export default function Doctorsection({home})
                     </SelectTrigger>
                     <SelectContent>
                         {
-                            
-                            categorioes.map((categorioes) => (
+                          categorioes.map((categorioes) => (
                                 <SelectItem key={categorioes} value={categorioes}>{categorioes}</SelectItem>
                             ))
                         }
