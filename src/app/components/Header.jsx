@@ -18,7 +18,7 @@ export default function Header() {
         <div className='bg-secondary '>
             <div className='flex justify-between container mx-auto p-3 '>
                 <h1 className='font-mono text-xl font-bold'>
-                    logo
+                    logos
                 </h1>
                 {
                     session?(
